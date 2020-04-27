@@ -1,15 +1,21 @@
 main {
   background: url("assets/freedom.jpg") no-repeat center/cover;
-  height: 39rem;
-  position: relative;
+  height: 40rem;
 }
 
 h1 {
   text-transform: uppercase;
   text-align: center;
-  position: absolute;
+  font-size: 2rem;
+  padding: 3rem;
+  padding-top: 4rem;
+  line-height: 3rem;
+  letter-spacing: .2rem;
+  font-family: 'Julius Sans One', sans-serif;
+
 }
 p {
   text-align: center;
-  position: absolute;
+  font-style: italic;
+  font-family: 'Crimson Text', serif;
 }
