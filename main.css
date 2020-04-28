@@ -1,15 +1,15 @@
 main {
   background: url("assets/freedom.jpg") no-repeat center/cover;
-  height: 40rem;
+  height: 100vh;
 }
 
 h1 {
   text-transform: uppercase;
   text-align: center;
-  font-size: 2rem;
-  padding: 3rem;
-  padding-top: 4rem;
-  line-height: 3rem;
+  font-size: 1rem;
+  padding: 4vw;
+  padding-top: 11vh;
+  line-height: 2rem;
   letter-spacing: .2rem;
   font-family: 'Julius Sans One', sans-serif;
 
@@ -18,4 +18,29 @@ p {
   text-align: center;
   font-style: italic;
   font-family: 'Crimson Text', serif;
+}
+
+a {
+  position: fixed;
+  bottom: 2rem;
+  left: 2rem;
+  background-color: rgb(168, 168, 168, 0.4);
+  color: black;
+  padding: .5rem;
+  text-decoration: none;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+/* Media querys*/
+
+@media screen and (min-width: 700px) {
+  h1 {
+    padding: 3rem;
+    padding-top: 4vh;
+    padding-bottom: 1rem;
+    font-size: 4vw;
+    line-height: 3rem;
+    line-height: 5vw;
+  }
+  
 }
